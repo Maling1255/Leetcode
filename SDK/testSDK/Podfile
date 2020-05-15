@@ -1,0 +1,18 @@
+
+platform :ios, '10.0'
+
+# 抽象，摘要 target，，    #Aspects AOP
+abstract_target 'commonPods' do
+	#这里写共用的第三方库
+	pod 'AFNetworking'
+    pod 'YYModel'
+    
+    target 'testSDK' do
+        #这里写SDK需要使用的第三方库
+    end
+    target 'Demo' do
+         #这里写测试工程里面需要使用的第三方库
+    end
+end
+
+

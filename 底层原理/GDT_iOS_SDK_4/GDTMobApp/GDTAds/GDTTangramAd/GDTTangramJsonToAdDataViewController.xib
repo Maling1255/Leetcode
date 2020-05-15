@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GDTTangramJsonToAdDataViewController">
+            <connections>
+                <outlet property="errorInfo" destination="3ET-lN-QtC" id="csW-GY-qqS"/>
+                <outlet property="jsonStr" destination="i7p-Yy-EEF" id="x4g-b0-E32"/>
+                <outlet property="preloadBtn" destination="zMg-Qm-Bv9" id="gdr-9L-D8H"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i7p-Yy-EEF">
+                    <rect key="frame" x="20" y="44" width="365" height="203"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">{"sdk_proto_type":1,
+"cl":"163107343",
+"img":"https://pgdt.ugdtimg.com/gdt/0/DAAYVTIAUAALQACABdcOyyC3HogsQ5.jpg/0?ck=e40c204131532caa20a965f977edd6f6",
+"img_s":"",
+"img2":"https://pgdt.ugdtimg.com/gdt/0/EAAYVTIABQABQAAAAj4BdTSbaC_6Xc5e8.jpg/0?ck=1ef867162afef08cfa43ce4332f201b4",
+"video":"https://adsmind.apdcdn.tc.qq.com/adsmind.tc.qq.com/1050_000001003spu00zk0k00wospxjzgm03z.f32.mp4?vkey=2E40430F85AB3923207961E585E3E2C964E364607E024F916E438C68A96468DA69311A768A5BC6A7D9280B4D211575C56D5B017663A4B329735F4EB539AFB17730D8B3197C91A79D30F68BA55E45C78758CD686A9E02592E",
+"price":"-",
+"reltarget":0,
+"last_modify_time":1568015086,
+"txt":"途虎养车",
+"desc":"汽车氛围灯一夜爆红，万千司机争相安装，几十块钱让爱车大变样",
+"button_txt":"",
+"corporation_name":"上海阑途信息技术有限公司",
+"ad_industry_id":4107,
+"corporate_image_name":"途虎养车",
+"corporate_logo":"https://pgdt.ugdtimg.com/gdt/0/EAAYVTIABQABQAAAAj4BdTSbaC_6Xc5e8.jpg/0?ck=1ef867162afef08cfa43ce4332f201b4",
+"edid":"77a3ed8282777261d01d0de2c48aea16",
+"rl":"https://c2.gdt.qq.com/gdt_mclick.fcg?viewid=R3WSlnFZ1IlYn7zXSkn6DR9Ff2QTD_B!9!PhR11Rj5MjskmTlI5WZVaHcncNTWy_ZOQNNKvzPFaMjXPX0lqJQ2QTxuetY4Sx_talzsOGSYw9gjZ2Ng6S2KXGcoN0ihoaUOcMU!Q8IAB5aqsjWb_NnP4caNssjiH1NzVxQlJCKTvq9!HGfq6!jsR4jDBDGnnpB4idBBF3V7zI_GMD1mFEULdd95t0uKa655kzYOo0VUQVZy8BDHjSN3StLzSZz!sBIOgwCdN10kUglDPUsMupcQ&amp;jtype=0&amp;i=1&amp;os=1&amp;ase=1&amp;clklpp=__CLICK_LPP__&amp;cdnxj=1&amp;xp=3",
+"begintime":1567958400,
+"targetid":"943708006",
+"apurl":"https://sv.gdt.qq.com/gdt_stats.fcg?viewid=R3WSlnFZ1IlYn7zXSkn6DR9Ff2QTD_B!9!PhR11Rj5MjskmTlI5WZVaHcncNTWy_ZOQNNKvzPFaMjXPX0lqJQ2QTxuetY4Sx_talzsOGSYw9gjZ2Ng6S2KXGcoN0ihoaUOcMU!Q8IAB5aqsjWb_NnP4caNssjiH1NzVxQlJCKTvq9!HGfq6!jsR4jDBDGnnpB4idBBF3V7zI_GMD1mFEULdd95t0uKa655kzYOo0VUQVZy8BDHjSN3StLzSZz!sBIOgwCdN10kUglDPUsMupcQ&amp;i=1&amp;os=1&amp;xp=3",
+"apptrace":"",
+"appclick":"",
+"traceid":"taetx3dafajyi01",
+"netlog_traceid":"taetx3dafajyi01",
+"linktype":0,
+"productid":"943708006",
+"producttype":19,
+"inner_adshowtype":3,
+"imagetype":2,
+"pattern_type":3,
+"negative_feedback_url":"https://nc.gdt.qq.com/gdt_report.fcg?viewid=R3WSlnFZ1IlYn7zXSkn6DR9Ff2QTD_B!9!PhR11Rj5MjskmTlI5WZVaHcncNTWy_ZOQNNKvzPFaMjXPX0lqJQ2QTxuetY4Sx_talzsOGSYw9gjZ2Ng6S2KXGcoN0ihoaUOcMU!Q8IAB5aqsjWb_NnP4caNssjiH1NzVxQlJCKTvq9!HGfq6!jsR4jDBDGnnpB4idBBF3V7zI_GMD1mFEULdd95t0uKa655kzYOo0VUQVZy8BDHjSN3StLzSZz!sBIOgwCdN10kUglDPUsMupcQ&amp;acttype=__ACT_TYPE__&amp;s=15",
+"buyingtype":1,
+"video_duration":59,
+"video_file_size":7781376,
+"ecpm":877,
+"real_adtype":1,
+"domain":"itunes.apple.com",
+"appcategoryname":"",
+"acttype":1,
+"pic_width":1280,
+"pic_height":720,
+"ext":{"alist":{"2022":{"aid":"tuhu.cn.main","atype":2025},"2025":{"aid":{"iconurl":"https://pgdt.ugdtimg.com/gdt/0/EAAYVTIABQABQAAAAj4BdTSbaC_6Xc5e8.jpg/0?ck=1ef867162afef08cfa43ce4332f201b4"}}},"appclass":0,"appclass3":0,"appid":"943708006","appname":"途虎养车","appscore":10,"appstoreurl":"https://itunes.apple.com/cn/app/%E9%80%94%E8%99%8E%E5%85%BB%E8%BD%A6-%E4%B8%93%E4%B8%9A%E6%B1%BD%E8%BD%A6%E4%BF%9D%E5%85%BB%E5%B9%B3%E5%8F%B0/id943708006?uo=4&amp;mt=8","appver":"5.6.5","creative_finger_print_productid":"0","desttype":11,"mappid":943708006,"packagename":"tuhu.cn.main","quality_productid":"2577335544","qzoneliked":0}
+,
+"advertiser_id":6378696,
+"cfg":{
+"pt":16}
+}</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omq-98-wDm">
+                    <rect key="frame" x="185" y="268" width="77" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="转换并跳转"/>
+                    <connections>
+                        <action selector="jsonToAdDataAndJump:" destination="-1" eventType="touchUpInside" id="L6A-9T-yao"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="预加载Appstore需要iOS&gt;=12才能成功！！" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3ET-lN-QtC">
+                    <rect key="frame" x="29" y="306" width="357" height="43"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMg-Qm-Bv9">
+                    <rect key="frame" x="43" y="268" width="109" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="预加载Appstore"/>
+                    <connections>
+                        <action selector="preloadAppstore:" destination="-1" eventType="touchUpInside" id="9AU-Xt-tbU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYA-Ot-LiD">
+                    <rect key="frame" x="294" y="268" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="曝光"/>
+                    <connections>
+                        <action selector="exposureAd:" destination="-1" eventType="touchUpInside" id="wdD-ha-bYT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="131.8840579710145" y="152.67857142857142"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - SCLAlertView-Objective-C (1.1.6)
+
+DEPENDENCIES:
+  - SCLAlertView-Objective-C
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SCLAlertView-Objective-C
+
+SPEC CHECKSUMS:
+  SCLAlertView-Objective-C: 2bb9be204bffaf24762a0e33fe6ca9645819b3b7
+
+PODFILE CHECKSUM: 1751f0b648d8cf30638bfab6331baddea65794e4
+
+COCOAPODS: 1.6.1
